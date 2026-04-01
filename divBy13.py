@@ -25,6 +25,7 @@ def divBy13(n):
         else:
             sliced_int =int(sliced)
             total += sliced_int
+    print(n)
         
     return (total % 13 == 0)
             
